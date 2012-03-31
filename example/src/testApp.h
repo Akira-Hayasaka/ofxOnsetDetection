@@ -3,6 +3,8 @@
 #include "ofMain.h"
 #include "ofxOnsetDetection.h"
 
+const static int nBands = 1024;
+
 class testApp : public ofBaseApp{
 
 public:
@@ -21,6 +23,7 @@ public:
     void gotMessage(ofMessage msg);
 
 private:
+    ofSoundPlayer snd;
     ofxOnsetDetection onsetD;
 		
 };
