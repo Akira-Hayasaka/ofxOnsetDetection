@@ -1,6 +1,5 @@
 //
 //  ofxOnsetDetection.h
-//  example
 //
 //  Created by Akira Hayasaka on 3/30/12.
 //  Copyright (c) 2012 ﾟ･:,｡ﾟ･:,｡★ﾟ･:,｡ﾟ･:,｡☆ﾟ･:,｡ﾟ･:,｡★ﾟ･:,｡ﾟ･:,｡☆. All rights reserved.
