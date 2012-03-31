@@ -25,8 +25,6 @@
 		E4C2424810CC5A17004149E2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424510CC5A17004149E2 /* Cocoa.framework */; };
 		E4C2424910CC5A17004149E2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C2424610CC5A17004149E2 /* IOKit.framework */; };
 		E4EB6799138ADC1D00A09F29 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
-		E9E189F31525C83700A01FE4 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E9E189EC1525C83700A01FE4 /* .gitignore */; };
-		E9E189F41525C83700A01FE4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E9E189ED1525C83700A01FE4 /* README.md */; };
 		E9E189F51525C83700A01FE4 /* onsetsds.c in Sources */ = {isa = PBXBuildFile; fileRef = E9E189F11525C83700A01FE4 /* onsetsds.c */; };
 /* End PBXBuildFile section */
 
@@ -83,8 +81,6 @@
 		E4C2424610CC5A17004149E2 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
 		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
 		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
-		E9E189EC1525C83700A01FE4 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		E9E189ED1525C83700A01FE4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		E9E189EF1525C83700A01FE4 /* ofxOnsetDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxOnsetDetection.h; sourceTree = "<group>"; };
 		E9E189F11525C83700A01FE4 /* onsetsds.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = onsetsds.c; sourceTree = "<group>"; };
 		E9E189F21525C83700A01FE4 /* onsetsds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = onsetsds.h; sourceTree = "<group>"; };
@@ -211,8 +207,6 @@
 		E9E189EB1525C83700A01FE4 /* ofxOnsetDetection */ = {
 			isa = PBXGroup;
 			children = (
-				E9E189EC1525C83700A01FE4 /* .gitignore */,
-				E9E189ED1525C83700A01FE4 /* README.md */,
 				E9E189EE1525C83700A01FE4 /* src */,
 			);
 			name = ofxOnsetDetection;
@@ -307,8 +301,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				316FD0551432D9160083F156 /* icon.icns in Resources */,
-				E9E189F31525C83700A01FE4 /* .gitignore in Resources */,
-				E9E189F41525C83700A01FE4 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
